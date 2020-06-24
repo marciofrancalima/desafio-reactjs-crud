@@ -25,6 +25,7 @@ export const Container = styled.div<IFoodPlateProps>`
     img {
       pointer-events: none;
       user-select: none;
+      width: 100%;
     }
   }
 
@@ -116,7 +117,7 @@ export const Container = styled.div<IFoodPlateProps>`
           transition: 0.4s;
           border-radius: 16px;
 
-          &:before {
+          &::before {
             position: absolute;
             content: '';
             height: 20px;
@@ -138,7 +139,7 @@ export const Container = styled.div<IFoodPlateProps>`
           box-shadow: 0 0 1px #2196f3;
         }
 
-        input:checked + .slider:before {
+        input:checked + .slider::before {
           -webkit-transform: translateX(32px);
           -ms-transform: translateX(32px);
           transform: translateX(32px);
