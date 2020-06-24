@@ -22,7 +22,6 @@ export const Container = styled.div`
           color: #fff;
 
           display: flex;
-          flex-direction: row;
           align-items: center;
 
           .text {
@@ -31,7 +30,7 @@ export const Container = styled.div`
 
           .icon {
             display: flex;
-            padding: 16px 16px;
+            padding: 16px;
             background: #41c900;
             border-radius: 0 8px 8px 0;
             margin: 0 auto;
